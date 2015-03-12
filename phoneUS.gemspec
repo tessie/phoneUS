@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["tessie"]
   spec.email         = ["tessyjoseph1992@gmail.com"]
 
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
-  end
+  # if spec.respond_to?(:metadata)
+  #   spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
+  # end
 
   spec.summary       = %q{Validates US phonnumber!}
   spec.description   = %q{Validates if the phonnumber is in US format}
